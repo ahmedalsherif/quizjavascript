@@ -1,0 +1,35 @@
+h1{
+	text-align: center;
+}
+input{
+	   width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+p{
+	    font-size: 30px;
+}
+div{
+	margin-left: 5%;
+}
+button{
+	    margin-left: 5%;
+    margin-top: 2%;
+}
+#div{
+	    float: right;
+    margin-right: 26%;
+    margin-top: -52%;
+}
+#div1{
+	    font-size: 35px;
+    color: green;
+}
+#div2{
+	    font-size: 35px;
+    color: red;
+}
