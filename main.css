@@ -18,7 +18,9 @@ div{
 }
 button{
 	    margin-left: 5%;
-    margin-top: 2%;
+    
+        margin-top: 80%;
+    position: absolute;
 }
 #div{
 	    float: right;
@@ -32,4 +34,9 @@ button{
 #div2{
 	    font-size: 35px;
     color: red;
+}
+#error{
+
+    float: right;
+    margin-right: 15%
 }
