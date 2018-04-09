@@ -51,7 +51,7 @@ var text ="";
  	
  	// console.log(a);
  	//  console.log(b);
- 	 document.write('<div id="container">'+'<span id="p1">'+a +'<br>'+'<input id="el">'+'<br>'+'</span>'+'</div>');
+ 	 document.write('<div id="container">'+'<span id="p'+i+'">'+a +'<br>'+'<input id="el'+i+'">'+'<br>'+'</span>'+'</div>');
 
  
  }
@@ -67,11 +67,11 @@ function problem()
 
 for(var i=0; i<questions.length; i++){
 	var b = questions[i].answer;
-	var x =document.getElementById("el").value;
+	var x =document.getElementById("el"+i).value;
 console.log(b);
 if (x==b)
 {
-	document.getElementById("p1").style.color = "green";
+	document.getElementById("p"+i).style.color = "green";
 	 // document.getElementById('err').innerHTML = 'correct';
 
 	console.log("correct1");
@@ -81,7 +81,7 @@ if (x==b)
 }
 else
 {
-	document.getElementById("p1").style.color = "red";
+	document.getElementById("p"+i).style.color = "red";
 	 // document.getElementById('err').innerHTML ='wrong';
 	console.log("wrong1");
 	wrong++;
